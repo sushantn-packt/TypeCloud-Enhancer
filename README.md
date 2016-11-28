@@ -13,8 +13,8 @@
 * Alt + X --------- Clear Format/Remove Link
 * Alt + + --------- Superscript
 * Alt + - --------- Subscript
-* Alt + right arrow --------- Increase Indent
-* Alt + left arrow --------- Decrease Indent
+* Alt + Right Arrow --------- Increase Indent
+* Alt + Left Arrow --------- Decrease Indent
 * Alt + Insert --------- Align Left
 * Alt + Home --------- Align Center
 * Alt + Page Up --------- Align Right
