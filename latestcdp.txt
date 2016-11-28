@@ -1,0 +1,228 @@
+// ==UserScript==
+// @name         CDP Shortcuts
+// @namespace    https://cdp.packtpub.com/
+// @version      1.0
+// @description  Add keyboard shortcuts to CDP i.e. TyprCloud
+// @author       sushantnadkar
+// @downloadURL  https://gist.github.com/sushantn-packt/c7cc7316b51a81fd3ce8706bcf0a8736.js
+// @updateURL    https://gist.github.com/sushantn-packt/c7cc7316b51a81fd3ce8706bcf0a8736.js
+// @match        https://cdp.packtpub.com/*
+// @grant        none
+// ==/UserScript==
+
+setTimeout(function() {
+
+tinymce.activeEditor.on('keydown', function(e) {
+
+    if(e.altKey && e.keyCode === 49) { //Alt + 1   heading level 1
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_47"), "click");
+
+	    }, 200);
+    }
+    if(e.altKey && e.keyCode === 50) { //Alt + 2   heading level 2
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_48"), "click");
+
+	    }, 200);
+    }
+    if(e.altKey && e.keyCode === 51) { //Alt + 3   heading level 3
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_49"), "click");
+
+	    }, 200);
+    }
+    if(e.altKey && e.keyCode === 52) { //Alt + 4   heading level 4
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_50"), "click");
+
+	    }, 200);
+    }
+    if(e.altKey && e.keyCode == 80) { //Alt + P   Paragraph
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_51"), "click");
+
+	    }, 200);
+    }
+    if(e.altKey && e.keyCode == 87) { //Alt + W   Code Block
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_52"), "click");
+
+	    }, 200);
+    }
+	if(e.altKey && e.keyCode == 70) { //Alt + F   Figure Ref Block
+	    e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_53"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_22"), "click");
+	    }, 200);
+    }
+	if(e.altKey && e.keyCode == 81) { //Alt + Q   Blockquote
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_54"), "click");
+
+	    }, 200);
+    }
+	if(e.altKey && e.keyCode == 84) { //Alt + T   Tip
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_55"), "click");
+
+	    }, 200);
+    }
+	if(e.altKey && e.keyCode == 73) { //Alt + I   Information Box
+    	e.preventDefault();
+	    triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+	    setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_56"), "click");
+
+	    }, 200);
+    }
+    if(e.altKey && e.keyCode == 88) { //Alt + X   Clear format/Remove link
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+    	setTimeout(function(){
+	        triggerMouseEvent (document.querySelector ("#mceu_50"), "click");
+
+	    }, 200);
+    	triggerMouseEvent (document.querySelector ("#mceu_3"), "click");
+		triggerMouseEvent (document.querySelector ("#mceu_14"), "click");
+    }
+    if(e.altKey && e.keyCode == 187) { //Alt + +   superscript
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_7"), "click");
+    }
+    if(e.altKey && e.keyCode == 189) { //Alt + -   subscript
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_8"), "click");
+    }
+    if(e.altKey && e.keyCode == 39) { //Alt + right arrow   increase indent
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_9"), "click");
+    }
+    if(e.altKey && e.keyCode == 37) { //Alt + left arrow   decrease indent
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_10"), "click");
+    }
+    if(e.altKey && e.keyCode == 45) { //Alt + Insert   align left
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_21"), "click");
+    }
+    if(e.altKey && e.keyCode == 36) { //Alt + Home   align center
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_22"), "click");
+    }
+    if(e.altKey && e.keyCode == 33) { //Alt + Page Up   align right
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_23"), "click");
+    }
+    if(e.altKey && e.keyCode == 82) { //Alt + R   Page Break
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_19"), "click");
+    }
+    if(e.altKey && e.keyCode == 66) { //Alt + B   Bullet List
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_11"), "click");
+    }
+    if(e.altKey && e.keyCode == 78) { //Alt + N   Numbered List
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_12"), "click");
+    }
+    if(e.altKey && e.keyCode == 77) { //Alt + M   Set start of numbered list
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_24"), "click");
+    }
+    if(e.altKey && e.keyCode == 85) { //Alt + U   Insert/Edit Link/URL
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_13"), "click");
+    }
+    if(e.altKey && e.keyCode == 67) { //Alt + C   Code
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_17"), "click");
+    }
+    if(e.altKey && e.keyCode == 83) { //Alt + S   Screen Text
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_18"), "click");
+    }
+    if(e.altKey && e.keyCode == 89) { //Alt + Y   Inline Quote
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_20"), "click");
+    }
+    if(e.altKey && e.keyCode == 189) { //Alt + -   subscript
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_8"), "click");
+    }
+	if(e.ctrlKey && e.keyCode == 83) { //Alt + S   save
+    	e.preventDefault();
+    	triggerMouseEvent (document.evaluate("//input[@type='submit' and @value='Save']", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue, "click");
+    }
+	if(e.ctrlKey && e.keyCode == 69) { //Alt + E   Command line
+	    e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
+    	setTimeout(function(){
+    	    triggerMouseEvent (document.querySelector ("#mceu_52"), "click");
+    	    triggerMouseEvent (document.querySelector ("#mceu_4"), "click");
+    	}, 200);
+    }
+
+	if(e.altKey && e.keyCode == 68) { //Alt + D   wide screen mode
+    	e.preventDefault();
+    	triggerMouseEvent (document.querySelector ("#mceu_15"), "click");
+        var iframe = document.getElementById('content_ifr');
+        if(iframe.style.width == "100%") {
+            iframe.style.width = "1165px";
+        } else {
+            iframe.style.width = "100%";
+        }
+    }
+});
+
+// add link in tool bar to cdp shortcut list on github
+var btn = document.createElement( 'input' );
+with( btn ) {
+    setAttribute( 'onclick', "window.open('https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts')" );
+    setAttribute( 'value', 'Keyboard Shortcuts List' );
+    setAttribute( 'type', 'button' );
+    setAttribute( 'style', 'padding: 5px;');
+}
+document.getElementById("mceu_30-body").appendChild( btn );
+
+
+function triggerMouseEvent (node, eventType) {
+    var clickEvent = document.createEvent ('MouseEvents');
+    clickEvent.initEvent (eventType, true, true);
+    node.dispatchEvent (clickEvent);
+}
+
+//add chapter name in top tool bar
+var chli = document.createElement('li');
+var chnm = $('input#title').val();//getElementById("title").value;
+var div = '<div class="ab-item ab-empty-item">' + chnm + '</div>';
+chli.innerHTML = div;
+var ul = document.getElementById("wp-admin-bar-root-default");
+ul.insertBefore(chli, document.getElementById("wp-admin-bar-comments"));
+
+//add indicator in top tool bar
+var chli1 = document.createElement('li');
+var chnm1 = "CDP shortcuts have been activated";//getElementById("title").value;
+var div1 = '<div class="ab-item ab-empty-item">' + chnm1 + '</div>';
+chli1.innerHTML = div1;
+var ul1 = document.getElementById("wp-admin-bar-root-default");
+ul1.insertBefore(chli1, document.getElementById("wp-admin-bar-comments"));
+}, 5000);
