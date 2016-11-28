@@ -4,10 +4,11 @@
 * Alt + B	-------- Bullets
 * Alt + N	-------- Numbered list
 * Alt + U	-------- Edit/Insert link
-* Alt + I	-------- Remove link
+* Alt + I	-------- Italics
 * Alt + C	-------- Code
 * Alt + S	-------- Scree text
 * Alt + M	-------- Set start of numbered list
+* Alt + W	-------- Keyword
 * Alt + P	-------- Page break
 * Alt + 1	-------- Heading level 1
 * Alt + 2	-------- Heading level 2
