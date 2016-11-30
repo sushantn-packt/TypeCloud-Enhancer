@@ -26,6 +26,9 @@
 * Alt + C ------------------- Code in Text
 * Alt + S ------------------- Screen Text
 * Alt + Y ------------------- Inline Quote
-* Ctrl + S ------------------ Save
 * Alt + E ------------------- Command Line
 * Alt + D ------------------- Wide screen mode
+* Alt + O ------------------- Add image border
+* Ctrl + S ------------------ Save
+* Ctrl + B ------------------ Bold
+* Ctrl + I ------------------ Italics
