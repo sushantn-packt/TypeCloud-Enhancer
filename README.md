@@ -15,20 +15,20 @@
 * Alt + - ------------------- ![Subscript](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/subscript.png)Subscript
 * Alt + Right Arrow --------- ![Increase Indent](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/increase-indent.png)Increase Indent
 * Alt + Left Arrow ---------- ![Decrease Indent](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/decrease-indent.png)Decrease Indent
-* Alt + Insert -------------- ![Align Left]()Align Left
-* Alt + Home ---------------- ![Align Center]()Align Center
-* Alt + Page Up ------------- ![Align Right]()Align Right
-* Alt + R ------------------- ![Page Break]()Page Break
-* Alt + B ------------------- ![Bullet List]()Bullet List
-* Alt + N ------------------- ![Numbered List]()Numbered List
-* Alt + M ------------------- ![Set start of numbered list]()Set start of numbered list
-* Alt + U ------------------- ![Insert/Edit Link/URL]()Insert/Edit Link/URL
-* Alt + C ------------------- ![Code in Text]()Code in Text
-* Alt + S ------------------- ![Screen Text]()Screen Text
-* Alt + Y ------------------- ![Inline Quote]()Inline Quote
-* Alt + E ------------------- ![Command Line]()Command Line
-* Alt + D ------------------- ![Wide screen mode]()Wide screen mode
-* Alt + O ------------------- ![Add image border]()Add image border
+* Alt + Insert -------------- ![Align Left](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/align-left.png)Align Left
+* Alt + Home ---------------- ![Align Center](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/align-center.png)Align Center
+* Alt + Page Up ------------- ![Align Right](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/align-right.png)Align Right
+* Alt + R ------------------- ![Page Break](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/page-break.png)Page Break
+* Alt + B ------------------- ![Bullet List](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/bullet.png)Bullet List
+* Alt + N ------------------- ![Numbered List](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/numbered-bullet.png)Numbered List
+* Alt + M ------------------- ![Set start of numbered list](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/set-start-of-numbered-list.png)Set start of numbered list
+* Alt + U ------------------- ![Insert/Edit Link/URL](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/insert-edit-link.png)Insert/Edit Link/URL
+* Alt + C ------------------- ![Code in Text](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/code.png)Code in Text
+* Alt + S ------------------- ![Screen Text](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/screen-text.png)Screen Text
+* Alt + Y ------------------- ![Inline Quote](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/inline-quote.png)Inline Quote
+* Alt + E ------------------- Command Line
+* Alt + D ------------------- ![Wide screen mode](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/destraction-free-writing-mode.png)Wide screen mode
+* Alt + O ------------------- ![Add image border](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/add-image-border.png)Add image border
 * Ctrl + S ------------------ Save
-* Ctrl + B ------------------ ![Bold]()Bold
-* Ctrl + I ------------------ ![Italics]()Italics
+* Ctrl + B ------------------ ![Bold](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/bold.png)Bold
+* Ctrl + I ------------------ ![Italics](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/italics.png)Italics
