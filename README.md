@@ -28,8 +28,7 @@ Alt + U | ![Insert/Edit Link/URL](https://github.com/sushantn-packt/CDP-Keyboard
 Alt + C | ![Code in Text](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/code.png) Code in Text
 Alt + S | ![Screen Text](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/screen-text.png) Screen Text
 Alt + Y | ![Inline Quote](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/inline-quote.png) Inline Quote
-Alt + D | ![Wide screen mode](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/destraction-free-writing-mode.png) Wide screen mode
-Alt + O | ![Add image border](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/add-image-border.png) Add image border
+Alt + D | ![Add image border](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/add-image-border.png) Add image border
 Ctrl + S | Save
 Ctrl + B | ![Bold](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/bold.png) Bold
 Ctrl + I | ![Italics](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/italics.png) Italics
