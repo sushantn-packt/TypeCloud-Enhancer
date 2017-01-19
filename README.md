@@ -32,3 +32,4 @@ Alt + D | ![Add image border](https://github.com/sushantn-packt/CDP-Keyboard-Sho
 Ctrl + S | Save
 Ctrl + B | ![Bold](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/bold.png) Bold
 Ctrl + I | ![Italics](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/italics.png) Italics
+Ctrl + M | ![Add Book Comment](https://github.com/sushantn-packt/CDP-Keyboard-Shortcuts/blob/master/icons/add-book-comment.png) Add Book Comment
