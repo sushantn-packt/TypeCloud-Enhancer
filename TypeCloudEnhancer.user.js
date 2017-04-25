@@ -162,7 +162,7 @@ setTimeout(function() {
         if(e.altKey && e.keyCode == 88) { //Alt + X   Clear format/Remove link
             e.preventDefault();
             triggerMouseEvent (document.querySelector ("#mceu_3"), "click");
-            triggerMouseEvent (document.querySelector ("#mceu_14"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_15"), "click");
         }
         if(e.altKey && e.keyCode == 38) { //Alt + up arrow   superscript
             e.preventDefault();
@@ -174,56 +174,56 @@ setTimeout(function() {
         }
         if(e.altKey && e.keyCode == 39) { //Alt + right arrow   increase indent
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_9"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_10"), "click");
         }
         if(e.altKey && e.keyCode == 37) { //Alt + left arrow   decrease indent
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_10"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_11"), "click");
         }
         if(e.altKey && e.keyCode == 45) { //Alt + Insert   align left
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_21"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_22"), "click");
         }
         if(e.altKey && e.keyCode == 36) { //Alt + Home   align center
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_22"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_23"), "click");
         }
         if(e.altKey && e.keyCode == 33) { //Alt + Page Up   align right
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_23"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_24"), "click");
         }
         if(e.altKey && e.keyCode == 82) { //Alt + R   Page Break
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_19"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_20"), "click");
         }
         if(e.altKey && e.keyCode == 66) { //Alt + B   Bullet List
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_11"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_12"), "click");
         }
         if(e.altKey && e.keyCode == 78) { //Alt + N   Numbered List
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_12"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_13"), "click");
         }
         if(e.altKey && e.keyCode == 77) { //Alt + M   Set start of numbered list
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_24"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_25"), "click");
         }
         if(e.altKey && e.keyCode == 85) { //Alt + U   Insert/Edit Link/URL
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_13"), "click");
-	        triggerMouseEvent (document.querySelector ("#mceu_43"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_14"), "click");
+	        triggerMouseEvent (document.querySelector ("#mceu_45"), "click");
         }
         if(e.altKey && e.keyCode == 67) { //Alt + C   Code
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_17"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_18"), "click");
         }
         if(e.altKey && e.keyCode == 83) { //Alt + S   Screen Text
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_18"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_19"), "click");
         }
         if(e.altKey && e.keyCode == 89) { //Alt + Y   Inline Quote
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_20"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_21"), "click");
         }
         if(e.altKey && e.keyCode == 189) { //Alt + -   subscript
             e.preventDefault();
@@ -243,7 +243,7 @@ setTimeout(function() {
         }
 	    if(e.ctrlKey && e.keyCode == 77) { //Ctrl + M   Add Book Comment
             e.preventDefault();
-            triggerMouseEvent (document.querySelector ("#mceu_27"), "click");
+            triggerMouseEvent (document.querySelector ("#mceu_28"), "click");
         }
         if(e.ctrlKey && e.keyCode == 70) { //Alt + F   Figure Ref Block
             e.preventDefault();
@@ -265,7 +265,7 @@ setTimeout(function() {
     btn.setAttribute( 'onclick', "window.open('https://github.com/sushantn-packt/TypeCloud-Enhancer')" );
     btn.onmouseover = function(){document.getElementById('srtlst').style.display = 'block';};
     btn.onmouseout = function(){document.getElementById('srtlst').style.display = 'none';};
-    document.getElementById("mceu_31-body").appendChild(btn);
+    document.getElementById("mceu_33-body").appendChild(btn);
 
     // add Add Border button in tool bar
     btn = document.createElement('div');
@@ -282,7 +282,7 @@ setTimeout(function() {
     btn.onclick = function(){addBorder();};
     btn.onmouseover = function(){document.getElementById('imgbrd').style.display = 'block';};
     btn.onmouseout = function(){document.getElementById('imgbrd').style.display = 'none';};
-    document.getElementById("mceu_31-body").appendChild(btn);
+    document.getElementById("mceu_33-body").appendChild(btn);
 
     // add link in tool bar to keyword list list on github
     btn = document.createElement('div');
@@ -299,7 +299,7 @@ setTimeout(function() {
     btn.setAttribute( 'onclick', "window.open('https://sushantn-packt.github.io/TypeCloud-Enhancer/keyword_list/keyword_list.htm')" );
     btn.onmouseover = function(){document.getElementById('keywrd').style.display = 'block';};
     btn.onmouseout = function(){document.getElementById('keywrd').style.display = 'none';};
-    document.getElementById("mceu_31-body").appendChild(btn);
+    document.getElementById("mceu_33-body").appendChild(btn);
 
     // add emoji/icon formatting button in tool bar
     btn = document.createElement('div');
@@ -316,7 +316,7 @@ setTimeout(function() {
     btn.onclick = function(){addIcon();};
     btn.onmouseover = function(){document.getElementById('ico').style.display = 'block';};
     btn.onmouseout = function(){document.getElementById('ico').style.display = 'none';};
-    document.getElementById("mceu_31-body").appendChild(btn);
+    document.getElementById("mceu_33-body").appendChild(btn);
 
     // add graphic bundle download button in tool bar
     btn = document.createElement('div');
@@ -333,7 +333,7 @@ setTimeout(function() {
                     "</button>";
     btn.onmouseover = function(){document.getElementById('gb').style.display = 'block';};
     btn.onmouseout = function(){document.getElementById('gb').style.display = 'none';};
-    document.getElementById("mceu_31-body").appendChild(btn);
+    document.getElementById("mceu_33-body").appendChild(btn);
 
     //function to trigger mouse event
     function triggerMouseEvent (node, eventType) {
