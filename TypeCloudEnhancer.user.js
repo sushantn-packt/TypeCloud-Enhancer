@@ -324,13 +324,13 @@ setTimeout(function() {
     btn.setAttribute('class', 'mce-widget mce-btn mce-last');
     btn.setAttribute('role', 'button');
     btn.innerHTML = "<button role='presentation' type='button' tabindex='-1'>"+
-                       "<a href='data:attachment/text,"+ graphicBundle() +"' target='_blank' download='"+ $('input#title').val() +".txt'>"+
                        "<i class='mce-ico mce-i-none' style='background-image: url(\"https://sushantn-packt.github.io/TypeCloud-Enhancer/icons/graphic-bundle.png\")'>"+"</i></a>"+
                          "<div id='gb' class='mce-tooltip mce-tooltip-n' role='presentation' style='position: absolute; top: 25px; left: -25px; display: none;'>"+
                              "<div class='mce-tooltip-arrow'></div>"+
                              "<div class='mce-tooltip-inner'>Graphic Bundle</div>"+
                          "</div>"+
                     "</button>";
+    btn.onclick = function(){drawGbDiv();};
     btn.onmouseover = function(){document.getElementById('gb').style.display = 'block';};
     btn.onmouseout = function(){document.getElementById('gb').style.display = 'none';};
     document.getElementById("mceu_33-body").appendChild(btn);
@@ -445,10 +445,10 @@ setTimeout(function() {
             }
         };
 
-        var li = document.getElementById('docmap').getElementsByTagName('li');
-            for (var i = 0; i < li.length; i++) {
-                li[i].setAttribute('idno', i);
-                li[i].addEventListener('click', function(e) {
+        var li2 = document.getElementById('docmap').getElementsByTagName('li');
+            for (var k = 0; i < li2.length; i++) {
+                li2[k].setAttribute('idno', i);
+                li2[k].addEventListener('click', function(e) {
                     $(tinymce.activeEditor.getBody()).find("h1, h2, h3, h4").get($(this).attr("idno")).scrollIntoViewIfNeeded(true);
                 });
             }
@@ -463,13 +463,85 @@ setTimeout(function() {
         for (var j = 0; j < arr.length; j++) {
             arr[j].className = "image-border";
         }
-        var arr1 = "<h1>" + $('input#title').val() + "</h1>";
+        var arr1 = "<h1>" + $('input#title').val() + "</h1><div class='CDPAlignCenter'>";
         for(var i = 0; i < arr.length; i++) {
             arr1 += arr[i].outerHTML;
             arr1 += "<br/><br/>";
         }
-        arr1 += "<pagebreak></pagebreak>";
+        arr1 += "</div><pagebreak></pagebreak>";
         return arr1.replace( / /g, "&nbsp;" );
+    }
+    function drawGbDiv(){
+        var gbdiv = document.createElement('div');
+        gbdiv.id = 'gbdiv';
+        gbdiv.setAttribute('class', 'mce-container mce-panel mce-floatpanel mce-window mce-in');
+        gbdiv.setAttribute('hidefocus', '1');
+        gbdiv.setAttribute('role', 'dialog');
+        gbdiv.setAttribute('aria-labelledby', 'mceu_80');
+        gbdiv.setAttribute('aria-describedby', 'mceu_80-none');
+        gbdiv.setAttribute('aria-label', 'Graphic Bundle');
+        gbdiv.setAttribute('style', 'border-width: 1px; z-index: 100101; left: 179px; top: 0px; width: 920px; height: 822px;');
+        gbdiv.innerHTML = '<div class="mce-reset" role="application">' +
+		'<div id="mceu_80-head" class="mce-window-head">' +
+			'<div id="mceu_80-title" class="mce-title">Graphic Bundle</div>' +
+			'<div id="mceu_80-dragh" class="mce-dragh"></div>' +
+			'<button id="close" type="button" class="mce-close" aria-hidden="true">' +
+				'<i class="mce-ico mce-i-remove"></i>' +
+			'</button>' +
+		'</div>' +
+		'<div id="mceu_80-body" class="mce-container-body mce-window-body mce-abs-layout" style="width: 920px; height: 734px;">' +
+			'<div id="mceu_80-absend" class="mce-abs-end"></div>' +
+			'<div id="mceu_81" class="mce-container mce-form mce-abs-layout-item mce-first mce-last" style="left: 0px; top: 0px; width: 920px; height: 734px;">' +
+				'<div id="mceu_81-body" class="mce-container-body mce-abs-layout" style="width: 920px; height: 734px;">' +
+					'<div id="mceu_81-absend" class="mce-abs-end"></div>' +
+					'<textarea id="mceu_82" hidefocus="1" spellcheck="false" class="mce-textbox mce-multiline mce-abs-layout-item mce-first mce-last" style="direction: ltr; text-align: left; left: 20px; top: 20px; width: 870px; height: 684px;">'+ graphicBundle() +'</textarea>' +
+				'</div>' +
+			'</div>' +
+		'</div>' +
+		'<div id="mceu_83" class="mce-container mce-panel mce-foot" hidefocus="1" tabindex="-1" role="group" style="border-width: 1px 0px 0px; left: 0px; top: 0px; width: 920px; height: 50px;">' +
+			'<div id="mceu_83-body" class="mce-container-body mce-abs-layout" style="width: 920px; height: 50px;">' +
+				'<div id="mceu_83-absend" class="mce-abs-end"></div>' +
+				'<div id="mceu_84" class="mce-widget mce-btn mce-primary mce-abs-layout-item mce-first mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_84" role="button" style="left: 793px; top: 10px; width: 50px; height: 28px;">' +
+					'<button id="ok" role="presentation" type="button" class="mce-copy" tabindex="-1" style="height: 100%; width: 100%;">' +
+						'<span class="mce-txt">Copy</span>' +
+					'</button>' +
+				'</div>' +
+				'<div id="mceu_85" class="mce-widget mce-btn mce-abs-layout-item mce-last mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_85" role="button" style="left: 848px; top: 10px; width: 60px; height: 28px;">' +
+					'<button id="cancel" role="presentation" type="button" class="mce-close" tabindex="-1" style="height: 100%; width: 100%;">' +
+						'<span class="mce-txt">Cancel</span>' +
+					'</button>' +
+				'</div>' +
+			'</div>' +
+		'</div>' +
+	'</div>';
+        var btn = gbdiv.getElementsByClassName('mce-close');
+        for(var i = 0; i < btn.length; i++) {
+            btn[i].onclick = function() {
+                $("div").remove('#gbdiv');
+                tinyMCE.execCommand('mceFocus', true, "tinymce");
+            };
+        }
+        var btn2 = gbdiv.getElementsByClassName('mce-copy');
+        btn2[0].onclick = function() {
+            var copyTextarea = gbdiv.getElementsByTagName('textarea');
+            copyTextarea[0].select();
+
+            try {
+                var successful = document.execCommand('copy');
+                var msg = successful ? 'successful' : 'unsuccessful';
+                console.log('Copying text command was ' + msg);
+            } catch (err) {
+                console.log('Oops, unable to copy');
+            }
+        };
+        $(document.body).append(gbdiv);
+        var copyTextarea = gbdiv.getElementsByTagName('textarea');
+        copyTextarea[0].select();
+    }
+    function closeGBdiv(){
+        $("div").remove('#gbdiv');
+        tinyMCE.execCommand('mceFocus', true, "tinymce");
+        tinyMCE.activeEditor.selection.moveToBookmark(myBookmark);
     }
 
     //function to add image border
@@ -562,7 +634,7 @@ setTimeout(function() {
         }
     }
 
-    //keyboead listner for ctlr + S on webpage
+    //keyboard listner for ctlr + S on webpage
     document.addEventListener('keydown', function(e) {
         if (e.keyCode == 83 && e.ctrlKey) {
             e.preventDefault();
