@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         TypeCloud Enhancer
 // @namespace    sushantnadkar
-// @version      1.0
+// @version      2.0
 // @description  Add missing features to CDP i.e. TyprCloud
 // @author       sushantnadkar
 // @downloadURL  https://gist.github.com/sushantn-packt/c7cc7316b51a81fd3ce8706bcf0a8736.js
 // @updateURL    https://gist.github.com/sushantn-packt/c7cc7316b51a81fd3ce8706bcf0a8736.js
 // @match        https://cdp.packtpub.com/*/wp-admin/post.php?post=*&action=edit
+// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js
 // @grant        none
 // ==/UserScript==
 
@@ -446,10 +447,10 @@ setTimeout(function() {
         };
 
         var li2 = document.getElementById('docmap').getElementsByTagName('li');
-            for (var k = 0; i < li2.length; i++) {
-                li2[k].setAttribute('idno', i);
+            for (var k = 0; k < li2.length; k++) {
+                li2[k].setAttribute('idno', k);
                 li2[k].addEventListener('click', function(e) {
-                    $(tinymce.activeEditor.getBody()).find("h1, h2, h3, h4").get($(this).attr("idno")).scrollIntoViewIfNeeded(true);
+                    $(tinymce.activeEditor.getBody()).find("h1, h2, h3, h4").get($(this).attr("idno")).scrollIntoView(true);window.scrollBy(0, -120);
                 });
             }
 	}
