@@ -134,7 +134,7 @@ setTimeout(function() {
             triggerMouseEvent (document.querySelector ("#mceu_0"), "click");
             setTimeout(function(){
                 triggerMouseEvent (document.querySelector (frb), "click");
-                triggerMouseEvent (document.querySelector ("#mceu_22"), "click");
+                triggerMouseEvent (document.querySelector ("#mceu_23"), "click");
             }, 200);
         }
         if(e.altKey && e.keyCode == 81) { //Alt + Q   Blockquote
