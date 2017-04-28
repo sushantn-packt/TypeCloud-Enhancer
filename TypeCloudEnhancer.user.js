@@ -4,8 +4,7 @@
 // @version      2.0
 // @description  Add missing features to CDP i.e. TyprCloud
 // @author       sushantnadkar
-// @downloadURL  https://gist.github.com/sushantn-packt/c7cc7316b51a81fd3ce8706bcf0a8736.js
-// @updateURL    https://gist.github.com/sushantn-packt/c7cc7316b51a81fd3ce8706bcf0a8736.js
+// @downloadURL  https://github.com/sushantn-packt/TypeCloud-Enhancer/raw/master/TypeCloudEnhancer.user.js
 // @match        https://cdp.packtpub.com/*/wp-admin/post.php?post=*&action=edit
 // @grant        none
 // ==/UserScript==
