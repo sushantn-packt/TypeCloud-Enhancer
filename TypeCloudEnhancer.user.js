@@ -7,7 +7,6 @@
 // @downloadURL  https://gist.github.com/sushantn-packt/c7cc7316b51a81fd3ce8706bcf0a8736.js
 // @updateURL    https://gist.github.com/sushantn-packt/c7cc7316b51a81fd3ce8706bcf0a8736.js
 // @match        https://cdp.packtpub.com/*/wp-admin/post.php?post=*&action=edit
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js
 // @grant        none
 // ==/UserScript==
 
