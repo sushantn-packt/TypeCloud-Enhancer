@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TypeCloud Enhancer
 // @namespace    sushantnadkar
-// @version      1.0
+// @version      2.0
 // @description  Add missing features to CDP i.e. TyprCloud
 // @author       sushantnadkar
 // @downloadURL  https://github.com/sushantn-packt/TypeCloud-Enhancer/raw/master/TypeCloudEnhancer.user.js
